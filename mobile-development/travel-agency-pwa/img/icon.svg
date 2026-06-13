@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Travel Agency</title>
+  <rect width="512" height="512" rx="112" fill="#0066cc"/>
+  <circle cx="256" cy="256" r="154" fill="#e6f2ff"/>
+  <path d="M114 256h284M256 102c52 44 82 96 82 154s-30 110-82 154c-52-44-82-96-82-154s30-110 82-154Z" fill="none" stroke="#0066cc" stroke-width="20"/>
+  <path d="M130 190h252M130 322h252" fill="none" stroke="#0066cc" stroke-width="16" stroke-linecap="round"/>
+  <path d="m318 168 88-42-42 88-27-19-49 49-20-20 49-49-19-27Z" fill="#ffb703" stroke="#00264d" stroke-width="10" stroke-linejoin="round"/>
+</svg>

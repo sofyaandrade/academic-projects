@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.pri-text {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.sec-text {
+    font-size: 17px;
+}
+

@@ -1,0 +1,15 @@
+[submodule "mobile-development/insuguia-clinical-prototype"]
+	path = mobile-development/insuguia-clinical-prototype
+	url = https://github.com/matheusferrarimf/InsuGuia.git
+[submodule "object-oriented-programming/ProjetoOrientacao"]
+	path = object-oriented-programming/ProjetoOrientacao
+	url = https://github.com/sofyaandrade/ProjetoOrientacao.git
+[submodule "programming-paradigm/hotel-booking-design-patterns"]
+	path = programming-paradigm/hotel-booking-design-patterns
+	url = https://github.com/sofyaandrade/hotel_design_patterns.git
+[submodule "programming-paradigm/real-time-court-booking-system"]
+	path = programming-paradigm/real-time-court-booking-system
+	url = https://github.com/sofyaandrade/Reserva-de-Quadras-Websocket.git
+[submodule "programming-paradigm/tax-refund-expert-system"]
+	path = programming-paradigm/tax-refund-expert-system
+	url = https://github.com/sofyaandrade/PrologProject.git

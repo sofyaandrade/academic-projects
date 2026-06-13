@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Livros</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <header>
+    <div class="logo">📚 Catálogo de Livros</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Livros</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Bem-vindo ao Catálogo de Livros</h1>
+  </section>
+
+  <main class="grid-container">
+    <div class="card">
+      <img src="img/livro1.jpg" alt="Livro 1">
+      <h3>Livro Infantil</h3>
+      <p>Autor: Flutie8211</p>
+    </div>
+    <div class="card">
+      <img src="img/livro2.jpg" alt="Livro 2">
+      <h3>Romance Clássico</h3>
+      <p>Autor: Betidraws</p>
+    </div>
+    <div class="card">
+      <img src="img/livro3.jpg" alt="Livro 3">
+      <h3>Desvendando o Mundo</h3>
+      <p>Autor: BiancaVanDijk</p>
+    </div>
+    <div class="card">
+      <img src="img/livro4.jpg" alt="Livro 4">
+      <h3>Natureza Moderna</h3>
+      <p>Autor: Betidraws</p>
+    </div>
+    <div class="card">
+      <img src="img/livro5.jpg" alt="Livro 5">
+      <h3>Ficção Científica</h3>
+      <p>Autor: Tiemcuala12</p>
+    </div>
+    <div class="card">
+      <img src="img/livro6.jpg" alt="Livro 6">
+      <h3>Fantasia Épica</h3>
+      <p>Autor: Hey-Juda</p>
+    </div>
+    <div class="card">
+      <img src="img/livro7.jpg" alt="Livro 7">
+      <h3>Historias Do Mundo</h3>
+      <p>Autor: Flutie8211</p>
+    </div>
+    <div class="card">
+      <img src="img/livro8.jpg" alt="Livro 8">
+      <h3>Sobre as Plantas</h3>
+      <p>Autor: Pfefferminza_Viktualia</p>
+    </div>
+    <div class="card">
+      <img src="img/livro9.jpg" alt="Livro 9">
+      <h3>Descobrindo o Universo</h3>
+      <p>Autor: RosZie</p>
+    </div>
+    <div class="card">
+      <img src="img/livro10.jpg" alt="Livro 10">
+      <h3>Autoconhecimento</h3>
+      <p>Autor: Andsproject</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>📖 Catálogo de Livros | Contato: (xx) xxxx-xxxx | sofya.andrade@unidavi.edu.br</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service_worker.js')
+          .then(reg => console.log('Service Worker registrado', reg))
+          .catch(err => console.log('Falha ao registrar Service Worker', err));
+      });
+    }
+  </script>
+</body>
+</html>

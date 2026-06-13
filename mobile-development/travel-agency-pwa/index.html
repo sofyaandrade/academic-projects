@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência Viagens Mundo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <div class="logo">🌍 Mundo Viagens</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+    </nav>
+  </header>
+
+  <section class="banner" id="inicio">
+    <h1>Explore o mundo com a gente</h1>
+    <p>Pacotes de viagens nacionais e internacionais</p>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <img src="img/img1.jpg" alt="Sobre nós">
+    <div>
+      <h2>Sobre Nós</h2>
+      <p>
+        A <b>Mundo Viagens</b> é especializada em criar experiências inesquecíveis. 
+        Conectamos você aos melhores destinos, cuidando de cada detalhe da sua viagem.
+      </p>
+    </div>
+  </section>
+
+  <section class="servicos" id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="img/servico1.jpg" alt="Serviço 1">
+        <h3>Pacotes Nacionais</h3>
+        <p>Descubra o Brasil com conforto e praticidade.</p>
+      </div>
+      <div class="card">
+        <img src="img/servico2.jpg" alt="Serviço 2">
+        <h3>Viagens Internacionais</h3>
+        <p>Explore novos países e culturas ao redor do mundo.</p>
+      </div>
+      <div class="card">
+        <img src="img/servico3.jpg" alt="Serviço 3">
+        <h3>Hospedagem e Guias</h3>
+        <p>Pacotes completos com hotéis e passeios guiados.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Entre em Contato</h2>
+    <p>📧 contato@mundoviagens.com | 📞 (99) 9999-9999</p>
+  </section>
+
+  <footer>
+    <p>🌍 Mundo Viagens - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service_worker.js')
+          .then(reg => console.log('Service Worker registrado', reg))
+          .catch(err => console.log('Falha ao registrar Service Worker', err));
+      });
+    }
+  </script>
+</body>
+</html>

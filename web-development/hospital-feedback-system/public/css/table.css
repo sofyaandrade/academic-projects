@@ -1,0 +1,19 @@
+.table-config{
+    border: solid 1px red;
+}
+
+thead{
+    border: solid 1px green; 
+}
+
+tbody{
+    border: solid 1px blue; 
+}
+
+tr{
+    border: solid 1px yellow; 
+}
+
+td{
+    border: solid 1px orange; 
+}

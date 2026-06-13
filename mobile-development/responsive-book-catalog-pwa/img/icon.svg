@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Responsive Book Catalog</title>
+  <rect width="512" height="512" rx="112" fill="#222222"/>
+  <path d="M104 132c55-14 105-5 152 28v236c-47-33-97-42-152-28V132Z" fill="#f5e4b8"/>
+  <path d="M408 132c-55-14-105-5-152 28v236c47-33 97-42 152-28V132Z" fill="#ffffff"/>
+  <path d="M256 160v236" stroke="#b98b63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M136 190c34-5 62 0 88 14M136 238c34-5 62 0 88 14M136 286c34-5 62 0 88 14" fill="none" stroke="#6d4f3d" stroke-width="12" stroke-linecap="round"/>
+  <path d="M376 190c-34-5-62 0-88 14M376 238c-34-5-62 0-88 14M376 286c-34-5-62 0-88 14" fill="none" stroke="#6d4f3d" stroke-width="12" stroke-linecap="round"/>
+</svg>

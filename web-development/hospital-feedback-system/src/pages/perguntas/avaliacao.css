@@ -1,0 +1,83 @@
+/* Main */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Pergunta */
+.question {
+    font-size: 27px;
+    margin-bottom: 40px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* Estilo dos quadrados */
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.comment-box {
+    width: 80%;
+    max-width: 600px;
+    height: 150px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    margin-bottom: 20px;
+}
+
+.next-button {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.next-button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
+
+.gear-button i {
+    font-size: 40px; /* Define o tamanho do ícone para 40px, ajuste conforme necessário */
+}
+
+.selected {
+    border: 2px solid #007bff;  /* Cor azul para destacar o botão */
+    background-color: #e0e0e0;  /* Cor de fundo mais clara */
+}
