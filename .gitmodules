@@ -1,6 +1,3 @@
-[submodule "mobile-development/insuguia-clinical-prototype"]
-	path = mobile-development/insuguia-clinical-prototype
-	url = https://github.com/matheusferrarimf/InsuGuia.git
 [submodule "object-oriented-programming/ProjetoOrientacao"]
 	path = object-oriented-programming/ProjetoOrientacao
 	url = https://github.com/sofyaandrade/ProjetoOrientacao.git
